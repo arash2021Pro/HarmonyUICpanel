@@ -1,0 +1,12 @@
+.datatable-wrapper .datatable tbody td {
+    padding: .25rem!important;
+
+}
+.harmony-meta-list-two-add{
+    width: 5.2rem;
+    height: 5.2rem;
+    position: absolute;
+    left: -20px;
+    bottom: -20px;
+    border-radius: 0 100% 0 0;
+}

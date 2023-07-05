@@ -1,0 +1,31 @@
+/*bg-instagram*/
+.telegram{
+    min-height: 200px;
+    font-size: .65rem;
+    font-weight: bolder;
+    color: white;
+    transition: all .25s ease-in-out;
+}
+
+.telegram:hover{
+    transform: translateY(-10px);
+}
+.img-telegram{
+    filter: invert(1);
+}
+.telegram-bg{
+    background: rgb(99,130,185);
+    background: linear-gradient( rgba(99,130,185,1) 0%, rgba(100,134,187,1) 48%, rgba(94,164,206,1) 89%);
+}
+.telegram-hover:hover{
+    background: rgb(99,130,185);
+    background: linear-gradient( rgba(99,130,185,1) 0%, rgba(100,134,187,1) 48%, rgba(94,164,206,1) 89%);
+    color: white;
+    border-color: white;
+}
+.telegram:hover h3,
+.telegram:hover svg{
+    color: white;
+}
+
+/*bg-instagram*/

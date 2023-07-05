@@ -1,0 +1,46 @@
+.poll{
+    max-height: 20rem;
+    overflow: auto;
+}
+.poll>h2{
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+
+.poll::-webkit-scrollbar{
+    width: 8px;
+}
+.poll::-webkit-scrollbar-thumb{
+    background: #1C3FAA;
+    border-radius: 10px;
+
+}
+.customer-poll{
+    max-height: 25rem;
+    overflow: auto;
+}
+.customer-poll>h2{
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+
+.customer-poll::-webkit-scrollbar{
+    width: 8px;
+}
+.customer-poll::-webkit-scrollbar-thumb{
+    background: #1C3FAA;
+    border-radius: 10px;
+
+}
+
+.chat-dropdown{
+    margin:0!important ;
+}
+
+.Emoji{
+    position:absolute;
+    top:50%;
+    left:5px;
+}

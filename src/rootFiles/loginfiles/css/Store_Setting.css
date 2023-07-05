@@ -1,0 +1,58 @@
+
+.harmony-meta-list li:nth-child(2n+2){
+    background: white;
+}
+.harmony-meta-list-two{
+    position: relative;
+    overflow: hidden;
+}
+
+.harmony-meta-list-two-add{
+    width: 5.2rem;
+    height: 5.2rem;
+    position: absolute;
+    left: -20px;
+    bottom: -20px;
+    border-radius: 0 100% 0 0;
+}
+.web-scroll{
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.web-scroll::-webkit-scrollbar{
+    width: 8px;
+}
+.web-scroll::-webkit-scrollbar-thumb{
+    background: #1C3FAA;
+    border-radius: 10px;
+
+}
+
+.discount-code-list li:nth-child(2n+2){
+    background: #dadff1;
+}
+
+
+.discount-code{
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.discount-code::-webkit-scrollbar{
+    width: 8px;
+}
+.discount-code::-webkit-scrollbar-thumb{
+    background: #1C3FAA;
+    border-radius: 10px;
+
+}
+
+.discount-code-list li:nth-child(2n+2){
+    background: #dadff1;
+}
+
+.version-site{
+    direction: ltr!important;
+}
+

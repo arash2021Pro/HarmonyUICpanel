@@ -1,0 +1,33 @@
+/*bg-instagram*/
+.instagram{
+    min-height: 200px;
+    font-size: .65rem;
+    font-weight: bolder;
+    color: white;
+    transition: all .25s ease-in-out;
+}
+
+.instagram:hover{
+    transform: translateY(-10px);
+}
+.img-instagram{
+    filter: invert(1);
+}
+.instagram-bg{
+    /*background: rgb(99,130,185);*/
+    /*background: linear-gradient( rgba(99,130,185,1) 0%, rgba(100,134,187,1) 48%, rgba(94,164,206,1) 89%);*/
+    background: linear-gradient(90deg,#755bea,#ff72c0);
+}
+.instagram-hover:hover{
+    /*background: rgb(99,130,185);*/
+    /*background: linear-gradient( rgba(99,130,185,1) 0%, rgba(100,134,187,1) 48%, rgba(94,164,206,1) 89%);*/
+    background: linear-gradient(90deg,#755bea,#ff72c0);
+    color: white;
+    border-color: white;
+}
+.instagram:hover h3,
+.instagram:hover svg{
+    color: white;
+}
+
+/*bg-instagram*/

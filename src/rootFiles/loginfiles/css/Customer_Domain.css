@@ -1,0 +1,10 @@
+.td-tbody{
+    min-width: 7rem;
+    /*max-width: 7rem;*/
+    text-align: center;
+}
+.td-tbody-two{
+    min-width:4rem;
+    /*max-width: 4rem;*/
+    text-align: center;
+}

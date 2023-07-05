@@ -1,0 +1,19 @@
+
+.chat-user::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+
+.chat-user::-webkit-scrollbar-thumb{
+    background: #1C3FAA;
+    border-radius: 10px;
+}
+
+.sent-message{
+    display:flex;
+    justify-content: flex-start;
+}
+.received-message {
+    display:flex;
+    justify-content: flex-end;
+}

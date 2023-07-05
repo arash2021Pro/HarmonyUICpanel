@@ -1,0 +1,22 @@
+.error-page h2 {
+    position: relative;
+    font-size: 2rem;
+    text-transform: uppercase;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+/* Animation rules */
+@keyframes animate {
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
+        color: #fff;
+        text-shadow: none;
+    }
+    18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100% {
+        color: #FFF;
+        text-shadow: 0 0 10px #F34CF9,
+        0 0 20px #F34CF9,
+        0 0 40px #F34CF9,
+        0 0 80px #F34CF9,
+        0 0 160px #F34CF9;
+    }
+}

@@ -1,0 +1,229 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*font-style*/
+
+@font-face {
+    font-family: 'shabnam';
+    src: url('../fonts/shabnam/Shabnam-Bold.eot');
+    src: url('../fonts/shabnam/Shabnam-Bold.woff2?#iefix') format('embedded-opentype'),
+    url('../fonts/shabnam/Shabnam-Bold.woff2') format('woff2'),
+    url('../fonts/shabnam/Shabnam.woff') format('woff'),
+    url('../fonts/shabnam/Shabnam.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "iransans" ;
+    src: url("../fonts/iransanse/IRANSansX-Regular.woff") format('woff'),
+    url("../fonts/iransanse/IRANSansXV.woff2") format('woff');
+    font-display: swap;
+}
+
+/*font-style*/
+
+body {
+    font-family: 'shabnam', 'iransans', 'tahoma', serif;
+}
+
+
+/*font-style*/
+
+/*line-clamp*/
+
+.line-clamp-1 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.line-clamp-2 {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    min-height: 3rem;
+    line-height: 1.5rem !important;
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    min-height: 4.7rem;
+    line-height: 1.5rem !important;
+}
+
+.line-clamp-4 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    min-height: 4.7rem;
+    line-height: 1.8rem !important;
+}
+
+.Last-activity {
+    max-height: 15rem;
+    overflow-y: auto;
+
+}
+
+.Last-activity::-webkit-scrollbar {
+    width: 8px;
+}
+
+.Last-activity::-webkit-scrollbar-thumb {
+    background: #1C3FAA;
+    border-radius: 10px;
+
+}
+
+.post-input {
+    background: #EDF2F7FF;
+
+}
+
+.table tbody > tr:nth-child(even) > td {
+    background: #f9f9f9;
+}
+
+
+.message-box textarea {
+    min-height: 50vh;
+}
+
+
+.download-attach li:nth-child(odd) {
+    background: #1C3FAA;
+    color: white;
+}
+
+.huploader {
+    max-width: 99px;
+}
+
+.huploader::file-selector-button:hover {
+    background: #0d45a5;
+
+}
+
+.huploader::file-selector-button {
+    margin-right: 5px;
+    border: none;
+    background: #084cdf;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+/*see-password*/
+.see-password {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 10px;
+}
+
+/*see-password*/
+
+.tab-section {
+    min-height: 90vmin;
+}
+
+/*scroll=group-selected*/
+.select2-container .select2-selection .select2-selection__rendered::-webkit-scrollbar {
+    height: 5px;
+    background-color: transparent;
+}
+
+.select2-container .select2-selection .select2-selection__rendered::-webkit-scrollbar-thumb {
+    background: #1C3FAA;
+    border-radius: 10px;
+}
+
+/*scroll=group-selected*/
+
+/*side-line*/
+
+@media (max-width: 1023px) {
+    .add-group {
+        position: fixed;
+        right: 5px;
+        width: max-content;
+        top: 50%;
+        transform: translate(108%, -50%);
+        z-index: 100;
+        transition: all 2s;
+    }
+}
+
+.creat-group {
+    position: absolute;
+    width: max-content;
+    left: 0;
+    top: 50%;
+    transform: translate(-68%, -50%) rotate(-90deg);
+    z-index: 101;
+    padding: .50rem .75rem 0 .75rem;
+    border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.add-creat-group {
+    transform: translate(8%, -50%);
+    transition: all 2s;
+}
+
+/*side-line*/
+/*tooltip*/
+@media (max-width: 767px) {
+    .tooltip-one {
+        z-index: 1000;
+        display: block;
+        background: red;
+        border-radius: 5px;
+        padding: .25rem .75rem;
+        text-align: center;
+        font-size: .75rem;
+        color: white;
+    }
+}
+
+@media (min-width: 768px) {
+    .tooltip-one {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -120%);
+        z-index: 1000;
+        display: block;
+        background: red;
+        border-radius: 5px;
+        padding: .25rem .75rem;
+        width: max-content;
+        font-size: .75rem;
+        color: white;
+    }
+
+    .tooltip-one:before {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        border: 10px solid transparent;
+        border-top-color: red;
+        margin: 0 auto;
+        bottom: -20px;
+    }
+}
+
+/*tooltip*/

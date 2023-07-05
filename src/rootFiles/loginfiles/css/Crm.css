@@ -1,0 +1,8 @@
+.wizard__line {
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,19px);
+    width: 80%;
+
+}

@@ -1,0 +1,175 @@
+/*input-flex*/
+
+.file-upload-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+
+.file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+}
+
+.file-upload-content {
+    display: none;
+    text-align: center;
+}
+
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    opacity: 0;
+    width: 0;
+}
+
+.drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #15824B;
+    padding: 60px 0;
+}
+
+.remove-image:active {
+    border: 0;
+    transition: all .2s ease;
+}
+/*input-flex*/
+
+/*switch-chekbox*/
+
+.switch-button {
+    background: rgba(255, 255, 255, 0.56);
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+    color: #155fff;
+    position: relative;
+    padding-right: 75px;
+}
+.switch-button:before {
+    content: "کالا";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    pointer-events: none;
+}
+.switch-button-checkbox {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+}
+.switch-button-checkbox:checked + .switch-button-label:before {
+    transform: translateX(75px);
+    transition: transform 300ms linear;
+}
+.switch-button-checkbox + .switch-button-label {
+    position: relative;
+    padding: 7px 0;
+    display: block;
+    user-select: none;
+    pointer-events: none;
+}
+.switch-button-checkbox + .switch-button-label:before {
+    content: "";
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: .375rem;
+    transform: translateX(0);
+    transition: transform 300ms;
+}
+.switch-button-checkbox + .switch-button-label .switch-button-label-span {
+    position: relative;
+}
+
+
+/*switch-checkbox*/
+
+.switch-buttonTwo {
+    background: rgba(255, 255, 255, 0.56);
+    border-radius: 30px;
+    overflow: hidden;
+    width: 100px;
+    text-align: center;
+    color: #155fff;
+    position: relative;
+    padding-right: 50px;
+}
+.switch-buttonTwo:before {
+    content: "اتومات";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    pointer-events: none;
+}
+.switch-button-checkboxTwo {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+}
+.switch-button-checkboxTwo:checked + .switch-button-labelTwo:before {
+    transform: translateX(50px);
+    transition: transform 300ms linear;
+}
+.switch-button-checkboxTwo + .switch-button-labelTwo {
+    position: relative;
+    padding: 3px 0;
+    display: block;
+    user-select: none;
+    pointer-events: none;
+}
+.switch-button-checkboxTwo + .switch-button-labelTwo:before {
+    content: "";
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+    transform: translateX(0);
+    transition: transform 300ms;
+}
+.switch-button-checkboxTwo + .switch-button-labelTwo .switch-button-label-spanTwo {
+    position: relative;
+}
+/*switch-checkbox*/
+
+.w-14{
+    width: 4rem;
+}
+.table-add tbody tr:nth-child(even){
+    background-color: #eee;
+}
